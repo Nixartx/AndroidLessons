@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+
+    <RadioButton android:id="@+id/radio_java"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/java"
+    android:onClick="onRadioButtonClicked"/>
+
+    <RadioButton android:id="@+id/radio_js"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/java_script"
+    android:onClick="onRadioButtonClicked"/>
+</RadioGroup>

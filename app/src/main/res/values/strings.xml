@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="java">Java</string>
+    <string name="java_script">JavaScript</string>
+    <string name="checkbox_btn_v2">V2</string>
+    <string name="checkbox_btn">Checkbox</string>
+    <string name="autocomplete_btn">AutoComplete</string>
+    <string name="togglebutton_btn">ToggleButton</string>
+    <string name="radiobutton_btn">RadioButton</string>
+    <string name="seekbar_btn">Seekbar</string>
+    <string name="datepicker_btn">DataPicker</string>
+    <string name="timepicker_btn">TimePicker</string>
+    <string name="toast_btn">Toast</string>
+    <string name="alert_btn">Alert</string>
+    <string name="press_me">Press Me</string>
+    <string name="serializable_btn">Serializable</string>
+    <string name="btn_save">Save</string>
+    <string name="form_age">Age: </string>
+    <string name="form_surname">Surname: </string>
+    <string name="form_name">Name: </string>
+    <string name="enter_personal_data">Enter personal data</string>
+    <string name="imageview_btn">Imageview</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="open_menu_item">Open</string>
+    <string name="save_menu_item">Save</string>
+    <string name="goto_menu_item">Go To</string>
+    <string name="next_menu_item">Next</string>
+    <string name="previous_menu_item">Previous</string>
+    <string name="arrayadapter_btn">ArrayAdapter</string>
+    <string name="custom_adapter_btn">Custom Adapter</string>
+    <string name="layers_btn">Layers</string>
+    <string name="update_btn">Refresh</string>
+    <string name="fragment_text">Hello from Fragment</string>
+    <string name="fragments_btn">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

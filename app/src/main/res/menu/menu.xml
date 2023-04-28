@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/settings_menu_item">
+        <menu>
+
+            <item
+                android:id="@+id/menu_open"
+                android:title="@string/open_menu_item" />
+            <item
+                android:id="@+id/menu_save"
+                android:title="@string/save_menu_item" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_move"
+        android:title="@string/goto_menu_item" >
+        <menu>
+            <item
+                android:id="@+id/menu_next"
+                android:title="@string/next_menu_item" />
+            <item
+                android:id="@+id/menu_prev"
+                android:title="@string/previous_menu_item" />
+        </menu>
+    </item>
+</menu>
