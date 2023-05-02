@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:name="com.nixart.tasks.ContentFragment"
@@ -11,31 +11,39 @@
         android:id="@+id/fragment_container_view"
         android:name="com.nixart.tasks.ContentFragment"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
         tools:layout="@layout/fragment_content" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/listFragment"
-        android:name="com.nixart.tasks.ListFragment"
+    <LinearLayout
+        android:id="@+id/linear"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fragment_container_view"
-        tools:layout="@layout/fragment_list" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_container_view"
+        android:orientation="horizontal">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/detailFragment"
-        android:name="com.nixart.tasks.DetailFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/listFragment"
-        tools:layout="@layout/fragment_detail" />
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_weight="1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/listFragment"
+                android:name="com.nixart.tasks.ListFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_list" />
+        </ScrollView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/detailFragment"
+            android:name="com.nixart.tasks.DetailFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_detail" />
+
+    </LinearLayout>
+
+</RelativeLayout>
 

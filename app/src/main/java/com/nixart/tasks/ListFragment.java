@@ -19,7 +19,7 @@ public class ListFragment extends Fragment {
     }
 
     private OnFragmentSendDataListener fragmentSendDataListener;
-    String[] countries = { "Brazil", "Argentina", "Colombia", "Chile", "Uruguay"};
+    String[] countries = { "Brazil", "Argentina", "Colombia", "Chile", "Uruguay", "Russia"};
 
     public ListFragment() {
         // Required empty public constructor
