@@ -1,6 +1,8 @@
 package com.nixart.tasks;
 
-public class Fruit {
+import java.io.Serializable;
+
+public class Fruit implements Serializable {
     private String name;
     private int count;
     private String unit;

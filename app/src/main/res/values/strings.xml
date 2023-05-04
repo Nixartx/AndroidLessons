@@ -37,4 +37,5 @@
     <string name="start_thread_btn">Start Thread</string>
     <string name="webview_btn">WebView</string>
     <string name="httpurlconnection_btn">HttpUrlConnection</string>
+    <string name="savestate_btn">Save State</string>
 </resources>
