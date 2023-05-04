@@ -101,6 +101,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.webview_btn).setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.httpurlconnection_btn).setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, HttpUrlActivity.class);
+            startActivity(intent);
+        });
+
 
     }
 
