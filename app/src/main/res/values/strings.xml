@@ -32,6 +32,7 @@
     <string name="update_btn">Refresh</string>
     <string name="fragment_text">Hello from Fragment</string>
     <string name="fragments_btn">Fragments</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="multithread_btn">Multithread</string>
+    <string name="start_thread_btn">Start Thread</string>
 </resources>

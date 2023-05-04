@@ -96,6 +96,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.multithread_btn).setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, MultithreadActivity.class);
+            startActivity(intent);
+        });
+
 
     }
 
