@@ -116,6 +116,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.preference_fragment_btn).setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, PreferenceActivity.class);
+            startActivity(intent);
+        });
+
 
     }
 
